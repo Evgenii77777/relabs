@@ -1,0 +1,51 @@
+.list {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3);
+}
+
+.item {
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.wrapper {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  position: absolute;
+}
+
+.discount {
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  padding: 4px;
+  color: blueviolet;
+  background-color: rgb(252, 180, 252);
+  border-radius: 10px;
+}
+
+.price {
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.money {
+  text-decoration: line-through;
+  color: rgb(182, 179, 179);
+}
+
+.description {
+  color: rgb(207, 202, 202);
+}
+
+.card {
+  font-weight: bold;
+  color: blueviolet;
+}

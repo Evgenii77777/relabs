@@ -1,0 +1,12 @@
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+}
+
+.list {
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+}

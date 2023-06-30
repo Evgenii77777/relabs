@@ -1,0 +1,19 @@
+.section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.form {
+  display: grid;
+  place-items: center;
+  position: relative;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.formInput {
+  width: 100%;
+  margin-bottom: 10px;
+}
